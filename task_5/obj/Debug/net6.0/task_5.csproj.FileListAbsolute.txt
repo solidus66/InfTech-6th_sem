@@ -1,0 +1,15 @@
+C:\Users\solidus66\OneDrive\ВГУ\3 курс 2 сем\ИТ (Вахтин)\tasks\solidus_tasks\task_5\bin\Debug\net6.0\task_5.exe
+C:\Users\solidus66\OneDrive\ВГУ\3 курс 2 сем\ИТ (Вахтин)\tasks\solidus_tasks\task_5\bin\Debug\net6.0\task_5.deps.json
+C:\Users\solidus66\OneDrive\ВГУ\3 курс 2 сем\ИТ (Вахтин)\tasks\solidus_tasks\task_5\bin\Debug\net6.0\task_5.runtimeconfig.json
+C:\Users\solidus66\OneDrive\ВГУ\3 курс 2 сем\ИТ (Вахтин)\tasks\solidus_tasks\task_5\bin\Debug\net6.0\task_5.dll
+C:\Users\solidus66\OneDrive\ВГУ\3 курс 2 сем\ИТ (Вахтин)\tasks\solidus_tasks\task_5\bin\Debug\net6.0\task_5.pdb
+C:\Users\solidus66\OneDrive\ВГУ\3 курс 2 сем\ИТ (Вахтин)\tasks\solidus_tasks\task_5\obj\Debug\net6.0\task_5.csproj.AssemblyReference.cache
+C:\Users\solidus66\OneDrive\ВГУ\3 курс 2 сем\ИТ (Вахтин)\tasks\solidus_tasks\task_5\obj\Debug\net6.0\task_5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\solidus66\OneDrive\ВГУ\3 курс 2 сем\ИТ (Вахтин)\tasks\solidus_tasks\task_5\obj\Debug\net6.0\task_5.AssemblyInfoInputs.cache
+C:\Users\solidus66\OneDrive\ВГУ\3 курс 2 сем\ИТ (Вахтин)\tasks\solidus_tasks\task_5\obj\Debug\net6.0\task_5.AssemblyInfo.cs
+C:\Users\solidus66\OneDrive\ВГУ\3 курс 2 сем\ИТ (Вахтин)\tasks\solidus_tasks\task_5\obj\Debug\net6.0\task_5.csproj.CoreCompileInputs.cache
+C:\Users\solidus66\OneDrive\ВГУ\3 курс 2 сем\ИТ (Вахтин)\tasks\solidus_tasks\task_5\obj\Debug\net6.0\task_5.dll
+C:\Users\solidus66\OneDrive\ВГУ\3 курс 2 сем\ИТ (Вахтин)\tasks\solidus_tasks\task_5\obj\Debug\net6.0\refint\task_5.dll
+C:\Users\solidus66\OneDrive\ВГУ\3 курс 2 сем\ИТ (Вахтин)\tasks\solidus_tasks\task_5\obj\Debug\net6.0\task_5.pdb
+C:\Users\solidus66\OneDrive\ВГУ\3 курс 2 сем\ИТ (Вахтин)\tasks\solidus_tasks\task_5\obj\Debug\net6.0\task_5.genruntimeconfig.cache
+C:\Users\solidus66\OneDrive\ВГУ\3 курс 2 сем\ИТ (Вахтин)\tasks\solidus_tasks\task_5\obj\Debug\net6.0\ref\task_5.dll
