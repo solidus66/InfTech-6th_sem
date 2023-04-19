@@ -1,18 +1,13 @@
-﻿using System;
-
-class MobileOperator
+﻿class MobileOperator
 {
-    // Поля класса
     private string name;        // Название оператора
     private double callCost;    // Стоимость 1 минуты разговора
     private double coverage;    // Площадь покрытия
 
-    // Свойства для доступа к полям класса
     public string Name { get { return name; } }
     public double PricePerMinute { get { return callCost; } }
     public double CoverageArea { get { return coverage; } }
 
-    // Конструктор класса
     public MobileOperator(string name, double callCost, double coverage)
     {
         this.name = name;
@@ -20,13 +15,11 @@ class MobileOperator
         this.coverage = coverage;
     }
 
-    // Функция, которая определяет «качество» объекта – Q по заданной формуле
     public double GetQuality()
     {
         return 100 * coverage / callCost;
     }
 
-    // Функция вывода информации об объекте
     public void PrintInfo()
     {
         Console.WriteLine("Название оператора: " + name);
@@ -36,44 +29,28 @@ class MobileOperator
     }
 }
 
-// Определение класса 2-го уровня "Оператор мобильной связи с платой за каждое соединение"
 class PayMobileOperator : MobileOperator
 {
-    // Дополнительное поле класса
-    private bool hasPay;        // Наличие платы за каждое соединение
+    private bool hasPay;   // Наличие платы за каждое соединение
 
-    // Свойство для доступа к полю hasPay
     public bool HasConnectionFee { get { return hasPay; } }
 
-    // Конструктор класса
     public PayMobileOperator(string name, double callCost, double coverage, bool hasPay) : base(name, callCost, coverage)
     {
         this.hasPay = hasPay;
     }
 
-    // Функция, которая определяет «качество» объекта класса 2-го уровня – Qp,
-    // которая перекрывает функцию качества класса 1-го уровня (Q), 
-    // выполняя вычисление по новой формуле
-    //public new double GetQuality()
-    //{
-    //    double q = base.GetQuality();  // Вычисляем качество связи Q
-
-    //    // Если есть плата за каждое соединение, то уменьшаем Q на 30%
-    //    // Иначе увеличиваем Q на 50%
-    //    return hasPay ? 0.7 * q : 1.5 * q;
-    //}
     public new int GetQuality()
     {
         double q = base.GetQuality();
-        return hasPay ? (int)Math.Round(0.7 * q) : (int)Math.Round(1.5 * q);
+        return hasPay ? (int)Math.Round(0.7 * q) : (int)Math.Round(1.5 * q); // Если есть плата за каждое соединение, то уменьшаем Q на 30%
+                                                                             // Иначе увеличиваем Q на 50%
     }
 }
-
 class Program
 {
     static void Main(string[] args)
     {
-        // Создаем список операторов
         List<MobileOperator> operators = new List<MobileOperator>();
 
         while (true)
@@ -110,7 +87,6 @@ class Program
             operators.Add(newOperator);
         }
 
-        // Выводим информацию обо всех операторах
         foreach (MobileOperator op in operators)
         {
             Console.WriteLine();
