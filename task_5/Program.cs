@@ -1,61 +1,8 @@
-﻿interface IApplicant
-{
-    string Name { get; set; }
-    void Apply();
-    void Interview();
-}
-
-abstract class Student : IApplicant
-{
-    public string Name { get; set; }
-    public int Age { get; set; }
-    public string Email { get; set; }
-
-    public abstract void Apply();
-    public abstract void Interview();
-
-    public void Enroll()
-    {
-        Console.WriteLine("Enrolling in correspondence course...");
-    }
-
-    public void PayTuition()
-    {
-        Console.WriteLine("Paying tuition for correspondence course...");
-    }
-}
-
-class CorrespondenceStudent : Student
-{
-    public string MailingAddress { get; set; }
-    public bool IsInternational { get; set; }
-
-    public override void Apply()
-    {
-        Console.WriteLine("Applying for correspondence course...");
-    }
-
-    public override void Interview()
-    {
-        Console.WriteLine("Interviewing correspondence student...");
-    }
-
-    public void SendMaterials()
-    {
-        Console.WriteLine("Sending materials to correspondence student...");
-    }
-
-    public void ReceiveMaterials()
-    {
-        Console.WriteLine("Receiving materials from correspondence student...");
-    }
-}
-
-class Program
+﻿class Program
 {
     static void Main(string[] args)
     {
-        List<IApplicant> applicants = new List<IApplicant>();
+        List<Applicant> applicants = new List<Applicant>();
 
         CorrespondenceStudent student1 = new CorrespondenceStudent();
         student1.Name = "John Doe";
@@ -74,7 +21,7 @@ class Program
         applicants.Add(student1);
         applicants.Add(student2);
 
-        foreach (IApplicant applicant in applicants)
+        foreach (Applicant applicant in applicants)
         {
             applicant.Apply();
             applicant.Interview();
