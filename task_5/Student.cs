@@ -7,12 +7,12 @@
     public abstract void Apply();
     public abstract void Interview();
 
-    public void Enroll()
+    public void Enroll()    // запись на курс
     {
         Console.WriteLine("Enrolling in correspondence course...");
     }
 
-    public void PayTuition()
+    public void PayTuition() // оплата обучения
     {
         Console.WriteLine("Paying tuition for correspondence course...");
     }

@@ -13,13 +13,14 @@
         Console.WriteLine("Interviewing correspondence student...");
     }
 
-    public void SendMaterials()
+    public void SendMaterials() // отправка материалов студенту
     {
         Console.WriteLine("Sending materials to correspondence student...");
     }
 
-    public void ReceiveMaterials()
+    public void ReceiveMaterials() // получение материалов от студента
     {
         Console.WriteLine("Receiving materials from correspondence student...");
+        Console.WriteLine();
     }
 }

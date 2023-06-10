@@ -1,6 +1,6 @@
 ﻿interface Applicant
 {
     string Name { get; set; }
-    void Apply();
-    void Interview();
+    void Apply(); // подача заявки
+    void Interview(); // собеседование
 }
